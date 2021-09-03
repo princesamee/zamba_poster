@@ -102,10 +102,10 @@
 
 \begin{alertblock}{Objetivos}
     \begin{itemize}
-        \item Tener una plataforma en español y personalizable, para curso introductoria de programación por bloques con entorno minimalista y sin instalación
-        \item Tener una herramienta que permita la transición a lenguajes textuales
-        \item Plataforma didáctica como soporte para estrategias didácticas
-        \item Enseñar conceptos de  variables, entrada y salida utilizando bloques y tipos de datos básicos (Cadenas de texto, Números, Lógicos)
+        \item Tener una plataforma para cursos introductorios de programación por bloques, en español y personalizable, con entorno minimalista y sin instalación              
+        \item Contar con una herramienta que permita la transición a lenguajes de programación textuales
+        \item Entorno accesible como soporte para estrategias didácticas
+        \item Que permita la enseñanza de conceptos de  variables, entrada y salida, utilizando bloques y tipos de datos básicos (Cadenas de texto, numéricos y lógicos)
     \end{itemize}
 \end{alertblock}
 
@@ -114,29 +114,29 @@
 %----------------------------------------------------------------------------------------
 
 \begin{block}{Motivación}
-    La UniPe está diseñando un Profesorado en Informática innovador, alineado con los aprendizajes del Programa Nacional de Ciencia y Tecnología en la Escuela del MinCyT.
-    El objetivo de la materia de Programación 1 se centra en poder pensar estrategias simples centradas en la legibilidad de código. 
-    Los desafíos son algoritmos de recorridos secuenciales.
+    La UniPe está implementando un Profesorado en Informática con un enfoque didáctico innovador, alineado con los núcleos de aprendizajes prioritarios del Programa Nacional de Ciencia y Tecnología en la Escuela del MinCyT.
+    El objetivo de la materia Programación 1 se centra en poder pensar estrategias simples centradas en la legibilidad de código. 
+    Los desafíos proponen algoritmos de recorridos secuenciales.
 \end{block}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{zamba}
-	\caption{Entorno Zamba}
+	\caption{Entorno Zamba de programación por bloques}
 	\label{fig:zamba}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{pythonzamba.png}
-	\caption{Traducción a Python automática}
+	\caption{Traducción automática a Python }
 	\label{fig:traduccion}
 \end{figure}
 
 \begin{block}{Desventajas de entornos existentes}
 \begin{itemize}
-    \item Idioma, no tienen todos los bloques traducidos, o las palabras no son Argentinas.
-    \item Más estructuras y conceptos computacionales del mínimo requerido para resolver
+    \item Idioma. No tienen todos los bloques traducidos, o las palabras no son Argentinas.
+    \item Cuentan con más estructuras y conceptos computacionales del mínimo requerido para resolver
     \item Requieren registro
     \item Entornos más pesados gráficamente
     %\item Colores de estructuras distintos a los usados en Pilas Bloques
@@ -159,13 +159,13 @@
 \begin{column}{\twocolwid} % The third column
 
 
-\begin{block}{Ventajas de diseñar entorno propio}
+\begin{block}{Ventajas de diseñar un entorno propio}
 \begin{itemize}
-    \item Construye ``Soberanía Pedagógica''
+    \item Aporta en la construcción de ``Soberanía Pedagógica''
     \item División y nombre de categorías propia, basada en bibliografía de la materia
-    \item Readecuación de herramienta durante la cursada basada en la necesidad del estudiantado
-    \item Incentivar al diseño de las propias herramientas como soporte a conceptos
-    \item Permite el pasaje a lenguaje de programación textual
+    \item Posibilidad de readecuación de la herramienta durante la cursada basada, en la necesidad del estudiantado
+    \item Incentiva al diseño de las propias herramientas didácticas como soporte a conceptos a trabajar
+    \item Permite la transición a lenguaje de programación textual
     \item Basado en Blockly\cite{blockly} con mucha documentación y experiencias alrededor del mundo
 \end{itemize}
 
@@ -174,7 +174,7 @@
 
 \begin{block}{Construcción y Diseño}
     \begin{enumerate}
-        \item Diseño de unidades didácticas y sus guías de ejercicios
+        \item Diseño de unidades didácticas con sus guías de ejercicios
         \item En cada ejercicio anotar los conceptos algorítmicos y estructuras computacionales requeridas
         \item Armar la paleta de conceptos computacionales con los requerimientos de los ejercicios
         \item Adecuación de Blockly\cite{blockly} con pausas y traducción a Python 
@@ -199,10 +199,10 @@
 
 \begin{block}{Conclusiones}
     \begin{itemize}
-        \item Es una herramienta modificable con facilidad. Se puede descargar y usar de forma gratuita y desconectada en cualquier navegador.
+        \item Es una herramienta fácilmente modificable. Se puede descargar y usar en cualquier navegador de forma gratuita y desconectada.
         \item Al estar basado en Blockly, cuenta con la herramienta de traducción a lenguajes de texto, personalizable
         \item Las variables en Zamba son todas globales, esto permite un debate amplio de alcance de las variables y flujo de información al enfrentarse a otros lenguajes donde esto es más restringido.
-        \item Una contra es que permite programar procedimientos con efectos colaterales sobre las variables, al no controlar estrictamente el flujo de información los programas pueden tener resultados no deseados.
+        \item Una desventaja es que permite programar procedimientos con efectos colaterales sobre las variables. Al no controlar estrictamente el flujo de información los programas pueden tener resultados no deseados.
         \item Se deben reforzar los conceptos de creación, inicialización y asignación de variables en el código como concepto principal para asegurar precondiciones de valores válidos en las rutinas.
     \end{itemize}
 \end{block}
